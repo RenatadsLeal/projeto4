@@ -1,0 +1,34 @@
+<!-- Versão 5 do HTML -->
+<!DOCTYPE html>
+<!-- Tag principal / Idioma da página -->
+<html lang="pt-br">
+<head>
+    <title>Criando um formulário simples</title>
+    <meta charset="UTF-8">
+    <!-- Link do o arquivo CSS (Na pasta STYLE) -->
+    <link rel="stylesheet" href="./style/styles.css">
+    <!-- Ícone na guia -->
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/4999/4999263.png">
+</head>
+<body>
+    <!-- Tag de início do formulário -->
+        <form action="/login" method="POST" id="formulario">
+        <!-- Campo de login -->
+        <label for="login">Login</label>
+        
+        
+        <input type="text" id="login" name="login" placeholder="Digite aqui">
+        <br><br>
+
+        <!-- Campo de senha -->
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="*********">
+        <br><br>
+       
+        <!-- Botão de envio -->
+        <div id="alinhamento-botao">
+        <button type="submit">Enviar</button>
+        </div>
+        </form>
+</body>
+</html>

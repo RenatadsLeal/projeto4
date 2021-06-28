@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* NÃO ALTERAR ESSAS PROPRIEDADES DO BODY */
+body {
+    /* Altura em 100% do tamanho da janela */
+    height: 100vh;
+    /* Habilita o posicionamento Flexbox */
+    /* Transforma todos em filhos em flex itens */
+    display: flex;
+    /* Alinha os elementos na horizontal */
+    justify-content: center;
+    /* Alinha os elementos na vertical */
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1521133573892-e44906baee46?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80;);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formulario {
+    height: 10vh;
+    width: 35vh;
+  
+    border-style: solid;
+    border-color: rgb(218, 176, 230);
+    border-radius: 5%;
+    border-width: 0.2vh;
+    padding: 100px 20px 100px 20px;
+    background: rgba(177, 144, 187, 0.653);
+    color: white;
+}
+
+#alinhamento-botao {
+    display: flex;
+    /* ALINHAMENTO HORIZONTAL */
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: rgb(173, 101, 187);
+    height: 3.5vh;
+    border-radius: 10%;
+    border-color: white;
+}
+
+.icon {
+    width: 3vh;
+    height: 3vh;
+}
